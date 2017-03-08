@@ -4,7 +4,7 @@
   "description": "run unit and functional tests for each Pull Request",
   "main": "app.js",
   "scripts": {
-    "test": "karma start karma.conf.js",
+    "test": "node_modules/.bin/protractor conf.js",
     "start": "node server.js"
   },
   "author": "",
