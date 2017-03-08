@@ -9,8 +9,8 @@ module.exports = function(config) {
     'SL_Chrome': {
       base: 'SauceLabs',
       browserName: 'chrome',
-      version: 40,
-      platform: 'XP'
+      version: 50,
+      platform: 'Windows 7'
     },
     'SL_InternetExplorer': {
       base: 'SauceLabs',
@@ -22,7 +22,7 @@ module.exports = function(config) {
       base: 'SauceLabs',
       browserName: 'firefox',
       platform: 'Linux',
-      version: 31
+      version: 40
     }
   };
 
@@ -59,10 +59,10 @@ module.exports = function(config) {
       file: 'coverage.txt'
     },
 
-    reporters: ['progress', 'coverage', 'saucelabs', 'dots'],
+    reporters: ['progress', 'coverage', 'saucelabs', 'dots','junit'],
 
     // web server port
-    port: 9876,
+    port: 8000,
 
 
     // enable / disable colors in the output (reporters and logs)

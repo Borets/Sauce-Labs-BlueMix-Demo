@@ -2,7 +2,7 @@
 describe('AngularJS/Protractor Demo Tab1 default values', function() {
 
   it('should have the correct default data', function() {
-    browser.get(process.env.CF_APP_NAME);
+    browser.get('https://dev-sauce-labs-demo.mybluemix.net/');
 
     element(by.css('.index')).click();
 

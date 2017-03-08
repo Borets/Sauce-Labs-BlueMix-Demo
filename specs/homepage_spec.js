@@ -2,7 +2,7 @@
 describe('AngularJS/Protractor Demo App Homepage', function() {
 
   it('should verify title', function() {
-    browser.get(process.env.CF_APP_NAME);
+    browser.get('https://dev-sauce-labs-demo.mybluemix.net/');
 
     var title = element(by.css('body h1'));
 

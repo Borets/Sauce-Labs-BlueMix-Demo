@@ -2,7 +2,7 @@
 describe('AngularJS/Protractor Demo Tab1 new', function() {
 
   it('should add data and verify it was added new test', function() {
-    browser.get(process.env.CF_APP_NAME);
+    browser.get('https://dev-sauce-labs-demo.mybluemix.net/');
 
     element(by.css('.index')).click();
 
