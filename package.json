@@ -5,14 +5,16 @@
   "main": "app.js",
   "scripts": {
     "test": "karma start karma.conf.js",
-    "start": "python -m SimpleHTTPServer"
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "angular": "1.4.8",
     "angular-mocks": "1.4.8",
-    "angular-route": "1.4.8"
+    "angular-route": "1.4.8",
+    "connect": "^2.0.0",
+    "serve-static": "^1.5.0"
   },
   "devDependencies": {
     "chai": "3.4.1",
