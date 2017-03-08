@@ -6,7 +6,7 @@ describe('AngularJS/Protractor Demo App Homepage', function() {
 
     var title = element(by.css('body h1'));
 
-    expect(title.getText()).toEqual('Title');
+    expect(title.getText()).toEqual('Sauce Labs Demo App');
   });
 
 });

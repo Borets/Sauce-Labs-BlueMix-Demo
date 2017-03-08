@@ -5,11 +5,31 @@ exports.config = {
 
   //seleniumAddress: 'http://ondemand.saucelabs.com:80/wd/hub',
   specs: ['specs/*spec.js'],
+  framework: "jasmine2",
 
   // restartBrowserBetweenTests: true,
 
   onPrepare: function(){
       var caps = browser.getCapabilities();
+      var jasmineReporters = require('jasmine-reporters');
+      return browser.getProcessedConfig().then(function(config) {
+        // you could use other properties here if you want, such as platform and version
+        var browserName = config.capabilities.browserName;
+
+        var junitReporter = new jasmineReporters.JUnitXmlReporter({
+            consolidateAll: false,
+            savePath: 'test-reports',
+            // this will produce distinct xml files for each capability
+            filePrefix: browserName + '-xmloutput',
+            modifySuiteName: function(generatedSuiteName, suite) {
+                // this will produce distinct suite names for each capability,
+                // e.g. 'firefox.login tests' and 'chrome.login tests'
+                return browserName + '.' + generatedSuiteName;
+            }
+        });
+        jasmine.getEnv().addReporter(junitReporter);
+    });
+
   },
 
   multiCapabilities: [{
@@ -48,6 +68,9 @@ exports.config = {
     shardTestFiles: true,
     maxInstances: 25
   }],
+
+
+
 
   onComplete: function() {
 
