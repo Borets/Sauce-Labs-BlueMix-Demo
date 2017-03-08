@@ -5,12 +5,12 @@
         </header>
         <div class="row">
             <div class=>
-                Data1:
+                Column 1:
                 <br />
                 <input ng-model="newData.data1" type="text" id="input1" placeholder="Data1">
             </div>
             <div>
-                Data2:
+                Column 2:
                 <br />
                 <input ng-model="newData.data2" type="text" id="input2" placeholder="Data2">
             </div>
@@ -22,7 +22,7 @@
         </div>
         <br /><br />
         <table>
-            <tr><th>Data1</th><th>Data2</th></tr>
+            <tr><th>Column 1</th><th>Column 2</th></tr>
           <tr ng-repeat="item in data"><td>{{ item.data1 }}</td><td>{{ item.data2 }}</td>
         </table>
     </div>
