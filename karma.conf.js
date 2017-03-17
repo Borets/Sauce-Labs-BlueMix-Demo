@@ -76,9 +76,12 @@ module.exports = function(config) {
 
     sauceLabs: {
       testName: 'Karma and Sauce Labs demo',
-      startConnect: true
+      startConnect: true,
+      connectOptions: {
+        logfile: 'sc_log.txt'
+      }
     },
-
+    
     captureTimeout: 120000,
     customLaunchers: customLaunchers,
 
