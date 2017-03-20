@@ -90,14 +90,6 @@ exports.config = {
     shardTestFiles: true,
     build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
     maxInstances: 200
-  }, {
-    browserName: 'chrome',
-    version: '51',
-    platform: 'Windows 8.1',
-    name: "chrome-win8-1",
-    shardTestFiles: true,
-    build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
-    maxInstances: 200
   }],
 
   onComplete: function() {
