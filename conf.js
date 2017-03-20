@@ -170,6 +170,46 @@ exports.config = {
     shardTestFiles: true,
     build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
     maxInstances: 200
+  },{
+    browserName: 'firefox',
+    version: '51',
+    platform: 'Windows 10',
+    name: "firefox-tests",
+    shardTestFiles: true,
+    build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
+    maxInstances: 200
+  },{
+    browserName: 'firefox',
+    version: '50',
+    platform: 'Windows 10',
+    name: "firefox-tests",
+    shardTestFiles: true,
+    build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
+    maxInstances: 200
+  },{
+    browserName: 'firefox',
+    version: '49',
+    platform: 'Windows 10',
+    name: "firefox-tests",
+    shardTestFiles: true,
+    build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
+    maxInstances: 200
+  },{
+    browserName: 'firefox',
+    version: '48',
+    platform: 'Windows 10',
+    name: "firefox-tests",
+    shardTestFiles: true,
+    build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
+    maxInstances: 200
+  },{
+    browserName: 'firefox',
+    version: '47',
+    platform: 'Windows 10',
+    name: "firefox-tests",
+    shardTestFiles: true,
+    build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
+    maxInstances: 200
   }],
 
 
