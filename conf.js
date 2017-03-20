@@ -41,7 +41,7 @@ exports.config = {
     name: "chrome-tests",
     shardTestFiles: true,
     build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
-    maxInstances: 200
+    maxInstances: 100
   },{
     browserName: 'chrome',
     version: '55',
@@ -49,7 +49,7 @@ exports.config = {
     name: "chrome-tests",
     shardTestFiles: true,
     build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
-    maxInstances: 200
+    maxInstances: 100
    },{
     browserName: 'chrome',
     version: '54',
@@ -57,7 +57,7 @@ exports.config = {
     name: "chrome-tests",
     shardTestFiles: true,
     build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
-    maxInstances: 200
+    maxInstances: 100
   },{
     browserName: 'chrome',
     version: '53',
@@ -65,7 +65,7 @@ exports.config = {
     name: "chrome-tests",
     shardTestFiles: true,
     build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
-    maxInstances: 200
+    maxInstances: 100
   }, {
     browserName: 'chrome',
     version: '52',
@@ -73,7 +73,7 @@ exports.config = {
     name: "chrome-tests",
     shardTestFiles: true,
     build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
-    maxInstances: 200
+    maxInstances: 100
   },{
     browserName: 'chrome',
     version: '51',
@@ -81,7 +81,7 @@ exports.config = {
     name: "chrome-tests",
     shardTestFiles: true,
     build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
-    maxInstances: 200
+    maxInstances: 100
   },{
     browserName: 'chrome',
     version: '50',
@@ -89,7 +89,7 @@ exports.config = {
     name: "chrome-tests",
     shardTestFiles: true,
     build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
-    maxInstances: 200
+    maxInstances: 100
   },{
     browserName: 'chrome',
     version: '49',
@@ -97,7 +97,7 @@ exports.config = {
     name: "chrome-tests",
     shardTestFiles: true,
     build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
-    maxInstances: 200
+    maxInstances: 100
   },{
     browserName: 'internet explorer',
     version: '10',
@@ -105,7 +105,7 @@ exports.config = {
     name: 'win7-ie10',
     shardTestFiles: true,
     build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
-    maxInstances: 200
+    maxInstances: 100
   },{
     browserName: 'chrome',
     version: '56',
@@ -113,7 +113,7 @@ exports.config = {
     name: "chrome-tests",
     shardTestFiles: true,
     build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
-    maxInstances: 200
+    maxInstances: 100
   },{
     browserName: 'chrome',
     version: '55',
@@ -121,7 +121,7 @@ exports.config = {
     name: "chrome-tests",
     shardTestFiles: true,
     build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
-    maxInstances: 200
+    maxInstances: 100
    },{
     browserName: 'chrome',
     version: '54',
@@ -129,7 +129,7 @@ exports.config = {
     name: "chrome-tests",
     shardTestFiles: true,
     build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
-    maxInstances: 200
+    maxInstances: 100
   },{
     browserName: 'chrome',
     version: '53',
@@ -137,7 +137,7 @@ exports.config = {
     name: "chrome-tests",
     shardTestFiles: true,
     build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
-    maxInstances: 200
+    maxInstances: 100
   }, {
     browserName: 'chrome',
     version: '52',
@@ -145,7 +145,7 @@ exports.config = {
     name: "chrome-tests",
     shardTestFiles: true,
     build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
-    maxInstances: 200
+    maxInstances: 100
   },{
     browserName: 'chrome',
     version: '51',
@@ -153,7 +153,7 @@ exports.config = {
     name: "chrome-tests",
     shardTestFiles: true,
     build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
-    maxInstances: 200
+    maxInstances: 100
   },{
     browserName: 'chrome',
     version: '50',
@@ -161,7 +161,7 @@ exports.config = {
     name: "chrome-tests",
     shardTestFiles: true,
     build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
-    maxInstances: 200
+    maxInstances: 100
   },{
     browserName: 'chrome',
     version: '49',
@@ -169,7 +169,7 @@ exports.config = {
     name: "chrome-tests",
     shardTestFiles: true,
     build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
-    maxInstances: 200
+    maxInstances: 100
   },{
     browserName: 'firefox',
     version: '51',
@@ -177,7 +177,7 @@ exports.config = {
     name: "firefox-tests",
     shardTestFiles: true,
     build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
-    maxInstances: 200
+    maxInstances: 100
   },{
     browserName: 'firefox',
     version: '50',
@@ -185,7 +185,7 @@ exports.config = {
     name: "firefox-tests",
     shardTestFiles: true,
     build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
-    maxInstances: 200
+    maxInstances: 100
   },{
     browserName: 'firefox',
     version: '49',
@@ -193,7 +193,7 @@ exports.config = {
     name: "firefox-tests",
     shardTestFiles: true,
     build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
-    maxInstances: 200
+    maxInstances: 100
   },{
     browserName: 'firefox',
     version: '48',
@@ -201,7 +201,7 @@ exports.config = {
     name: "firefox-tests",
     shardTestFiles: true,
     build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
-    maxInstances: 200
+    maxInstances: 100
   },{
     browserName: 'firefox',
     version: '47',
@@ -209,7 +209,7 @@ exports.config = {
     name: "firefox-tests",
     shardTestFiles: true,
     build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
-    maxInstances: 200
+    maxInstances: 100
   }],
 
 
