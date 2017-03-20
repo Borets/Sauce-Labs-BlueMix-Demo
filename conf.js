@@ -35,62 +35,162 @@ exports.config = {
   },
 
   multiCapabilities: [{
-    browserName: 'firefox',
+    browserName: 'chrome',
+    version: '56',
+    platform: 'Windows 7',
+    name: "chrome-tests",
+    shardTestFiles: true,
+    build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
+    maxInstances: 200
+  },{
+    browserName: 'chrome',
+    version: '55',
+    platform: 'Windows 7',
+    name: "chrome-tests",
+    shardTestFiles: true,
+    build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
+    maxInstances: 200
+  }, {
+    browserName: 'chrome',
+    version: '54',
+    platform: 'Windows 7',
+    name: "chrome-tests",
+    shardTestFiles: true,
+    build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
+    maxInstances: 200
+  }, {
+    browserName: 'chrome',
+    version: '53',
+    platform: 'Windows 7',
+    name: "chrome-tests",
+    shardTestFiles: true,
+    build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
+    maxInstances: 200
+  }, {
+    browserName: 'chrome',
+    version: '52',
+    platform: 'Windows 7',
+    name: "chrome-tests",
+    shardTestFiles: true,
+    build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
+    maxInstances: 200
+  },{
+    browserName: 'chrome',
+    version: '51',
+    platform: 'Windows 7',
+    name: "chrome-tests",
+    shardTestFiles: true,
+    build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
+    maxInstances: 200
+  },{
+    browserName: 'chrome',
+    version: '50',
+    platform: 'Windows 7',
+    name: "chrome-tests",
+    shardTestFiles: true,
+    build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
+    maxInstances: 200
+  },{
+    browserName: 'chrome',
+    version: '49',
+    platform: 'Windows 7',
+    name: "chrome-tests",
+    shardTestFiles: true,
+    build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
+    maxInstances: 200
+  }, {
+    browserName: 'chrome',
+    version: '56',
+    platform: 'Windows 7',
+    name: "chrome-tests",
+    shardTestFiles: true,
+    build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
+    maxInstances: 200
+  },{
+    browserName: 'chrome',
+    version: '55',
+    platform: 'OS X 10.12',
+    name: "chrome-tests",
+    shardTestFiles: true,
+    build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
+    maxInstances: 200
+  }, {
+    browserName: 'chrome',
+    version: '54',
+    platform: 'OS X 10.12',
+    name: "chrome-tests",
+    shardTestFiles: true,
+    build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
+    maxInstances: 200
+  }, {
+    browserName: 'chrome',
+    version: '53',
+    platform: 'OS X 10.12',
+    name: "chrome-tests",
+    shardTestFiles: true,
+    build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
+    maxInstances: 200
+  }, {
+    browserName: 'chrome',
+    version: '52',
+    platform: 'OS X 10.12',
+    name: "chrome-tests",
+    shardTestFiles: true,
+    build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
+    maxInstances: 200
+  },{
+    browserName: 'chrome',
     version: '51',
     platform: 'OS X 10.12',
-    name: "firefox-tests",
+    name: "chrome-tests",
     shardTestFiles: true,
     build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
     maxInstances: 200
   },{
-    browserName: 'firefox',
+    browserName: 'chrome',
     version: '50',
     platform: 'OS X 10.12',
-    name: "firefox-tests",
+    name: "chrome-tests",
     shardTestFiles: true,
     build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
     maxInstances: 200
   },{
-    browserName: 'firefox',
+    browserName: 'chrome',
     version: '49',
     platform: 'OS X 10.12',
-    name: "firefox-tests",
+    name: "chrome-tests",
     shardTestFiles: true,
     build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
     maxInstances: 200
   },{
-    browserName: 'firefox',
-    version: '47',
-    platform: 'OS X 10.12',
-    name: "firefox-tests",
-    shardTestFiles: true,
-    build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
-    maxInstances: 200
-  },{
-    browserName: 'firefox',
-    version: '46',
-    platform: 'OS X 10.12',
-    name: "firefox-tests",
+    browserName: 'internet explorer',
+    version: '11',  
+    platform: 'Windows 7',
+    name: "ie11-tests",
     shardTestFiles: true,
     build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
     maxInstances: 200
   }, {
-    browserName: 'firefox',
-    version: '45',
-    platform: 'OS X 10.12',
-    name: "firefox-tests",
+    browserName: 'chrome',
+    version: '43',
+    platform: 'Windows 8.1',
+    name: "chrome-win8-1",
     shardTestFiles: true,
     build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
     maxInstances: 200
   }, {
-    browserName: 'firefox',
-    version: '44',
-    platform: 'OS X 10.12',
-    name: "firefox-tests",
+    browserName: 'internet explorer',
+    version: '10',
+    platform: 'Windows 7',
+    name: 'win7-ie10',
     shardTestFiles: true,
     build: "BlueMix_E2E_Build "+process.env.BUILD_NUMBER,
     maxInstances: 200
   }],
+
+
+
+
 
   onComplete: function() {
 
